@@ -1,0 +1,21 @@
+# 🚨 SECRETS (NEVER UPLOAD THESE) 🚨
+.env
+.env.local
+.env.*
+
+# 📦 DEPENDENCIES (Too massive to upload, GitHub will rebuild them)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🏗️ BUILD FILES (Generated automatically)
+/frontend/dist/
+/frontend/build/
+/backend/dist/
+
+# 💻 OS & EDITOR FILES (Junk files your computer makes)
+.DS_Store
+.vscode/
+.idea/
+*.log
